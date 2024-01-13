@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav
+{
+    background-color: #146C94;
+    height: 10vh;
+}
+body 
+{
+    background-color: rgb(255, 255, 255);
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.g-name 
+{
+    font-size: 25px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    color: #146C94;
+}
+.g-name1
+{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #146C94;
+}
+form 
+{
+    margin-left: 5%;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 67vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: scroll; 
+    padding-right: 7px;
+}
+.submit
+{
+    width: 30%;
+    height: 7vh;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #146C94;
+    color: aliceblue;
+    transition: 1s;
+}
+.submit:hover
+{
+    color: #ffffff;
+    background-color: #1d1919;
+}
+.b-i 
+{
+    background-color: #146C94;
+    color: #ffffff;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+}
+.header
+{
+    background-color: #146C94;
+    color: #ffffff;
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1 
+{
+    background-color: rgba(255, 166, 0, 0.4);
+    padding: 10px;
+}
+.input1
+{
+    font-size: 1.2rem;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 15%;
+    font-size: 15px;
+}
+.input2
+{
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 13px;
+}
+.gen
+{
+    margin-left: 20px;
+}
+.label1
+{
+    margin-left: 15%;
+}
+label
+{
+    font-size: 15px;
+}
+input 
+{
+    font-size: 1.2rem;
+    width: 50%;
+    padding: 3px;
+}
+#male, #female, #other, #yes, #no, #agree {
+    width: 1.2rem;
+}
+select 
+{
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 5px;
+}
+h1
+{
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+option 
+{
+    font-size: 15px;
+    width: 50%;
+    padding: 5px;
+}
+.gender
+{
+    font-size: 15px;
+    color: black;
+    margin-left: 10%;
+}
+.name-con 
+{
+    display: flex;
+}
+.name-con div 
+{
+    width: 45%;
+    margin: 0 auto 0 auto;
+}
+.gender-con 
+{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.gender-radio
+{
+    display: flex;
+    margin: auto;
+}
+.gender-con div 
+{    
+    margin: auto;   
+}
+.contact-con 
+{
+    display: flex;
+
+}
+.contact-con div 
+{
+    margin: auto;
+    width: 45%;
+}
+.course-con {
+    width: 50%;
+    margin: auto;
+}
+
+.address-con {
+    display: flex;
+}
+.address-con div {
+    width: 45%;
+    margin: 0 auto 0 auto;
+}
+
+.guardian-con {
+    display: flex;
+}
+.guardian-con div {
+    width: 45%;
+    margin: 0 auto 0 auto;
+}
+.botlane {
+    width: 95%;
+    margin: auto;
+}
+
+.output {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 15px;
+    border-top: 1px solid black;
+}
+.output-con {
+    width: 95%;
+    margin: auto;
+}
+.tagline1
+{
+    width: 30%;
+    position: absolute;
+    margin-left: 57.5%;
+    margin-top: 5%;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+.tagline
+{
+    width: 35%;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 2%;
+    font-size: 21px;
+    background-color: white;
+    color: #000000;
+}
+.logo1
+{
+    width: 10%;
+    height: 20vh;
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 2%;
+}
+.logo2
+{
+    width: 10%;
+    height: 20vh;
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 2%;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.box
+{
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 12%;
+    background-color: white;
+    color: #146C94;
+}
+.ins
+{
+    background-color: white;
+    color: #146C94;
+    font-size: 20px;
+}
+.instruction
+{
+    font-size: 15px;
+    background-color: white;
+    color: #146C94;
+    margin-top: 0px;
+}
+.box1
+{
+
+    height: 2vh;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 19%;
+    background-color: white;
+    color: #146C94;
+}
+.box2
+{
+
+    height: 2vh;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 26%;
+    background-color: white;
+    color: #146C94;
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+   
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #146C94;
+    border-radius: 10px;
+}
+
